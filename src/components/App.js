@@ -1,11 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About />
+      <h1>App Component</h1>
     </div>
   );
 }

@@ -1,11 +1,14 @@
-import React from "react";
+import React from 'react';
 
-function Home() {
+const NavBar = () => {
   return (
-    <div id="home">
-      <h1>
-        {username} is a Web Developer from {city}
-      </h1>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
   );
-}
+};
+
+export default NavBar;
