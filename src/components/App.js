@@ -1,9 +1,14 @@
 import React from 'react';
+import Home from './Home';
+import About from './About';
+import NavBar from './NavBar';
 
 function App() {
   return (
     <div>
-      <h1>App Component</h1>
+      <NavBar />
+      <Home />
+      <About />
     </div>
   );
 }
